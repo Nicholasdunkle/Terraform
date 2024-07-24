@@ -1,1 +1,1 @@
-***** Each project is a separate branch that you can look through *****
+Each folder will contain at least a main.tf and a variables.tf file
