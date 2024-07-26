@@ -55,7 +55,7 @@ resource "azurerm_express_route_circuit" "ExpressRouteCircuit" {
   resource_group_name = var.expressroute_circuit.resource_group_name
   location = var.expressroute_circuit.location
   service_provider_name = "Equinix"
-  peering_location = "Silicon Valley"
+  peering_location = "Seattle"
   bandwidth_in_mbps = 50
   sku {
     tier = var.expressroute_circuit.sku
